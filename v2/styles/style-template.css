@@ -41,7 +41,8 @@ section {
 section img{
     grid-area: section;
     /* height: 100%; */
-    width: 100%;
+    min-width: 100%;
+    max-width: 200%;
 }
 
 main {
