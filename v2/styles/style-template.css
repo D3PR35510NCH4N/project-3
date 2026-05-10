@@ -40,9 +40,9 @@ section {
 
 section img{
     grid-area: section;
-    /* height: 100%; */
-    min-width: 100%;
-    max-width: 200%;
+    /* Fits for images around 6016x1987 */
+    /* min-width: 100%; */
+    max-width: 150%;
 }
 
 main {
