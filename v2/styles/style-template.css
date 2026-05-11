@@ -87,11 +87,13 @@ header, menu, footer {
     margin: 0.5em;
     border-radius: 1em;
     padding: 1em;
+    color:#3D2B53
 }
 
 .menuItem:hover {
     background-color: #FFF3D7;
 }
+
 
 /* ask dad for help*! */
 

@@ -20,7 +20,7 @@
 }
 
 
-body{
+body menuItem{
     font-family: analogue;
 }
 
@@ -35,6 +35,8 @@ main h1{
 
 a:link{
     text-decoration: none;
+
+
 }
 
 a:visited{
