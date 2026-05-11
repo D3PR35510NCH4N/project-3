@@ -95,6 +95,27 @@ header, menu, footer {
 }
 
 
+.projectContainer {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+
+    border: 2px solid lightgray;
+    padding: 1em;
+    width: min-content;
+    margin: 1em;
+}
+
+.projectItem {
+    background-color: #F1CFB0; 
+    text-align: right;
+    margin: 0.5em;
+    border-radius: 1em;
+    padding: 1em;
+    color:#3D2B53
+}
+
+
 /* ask dad for help*! */
 
 /* @media only screen and (max-width: 600px) {
