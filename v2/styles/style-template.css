@@ -103,21 +103,25 @@ header, menu, footer {
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
-
+    flex-direction: row;
+    
     border: 2px solid lightgray;
-    padding: 1em;
     width: min-content;
     margin: 1em;
+    padding: 2em;
+
 }
 
-.projectItem {
+.projectBox {
     background-color: #F1CFB0; 
-    text-align: right;
-    margin: 0.5em;
+    text-align: center;
+    margin: 1.5em;
+    width: min-content;
     border-radius: 1em;
-    padding: 1em;
+    padding: 2em;
     color:#3D2B53
 }
+
 
 
 
