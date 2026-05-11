@@ -136,16 +136,15 @@ header, menu, footer {
     "footer"
     ;
     grid-template-columns: 3fr;
-    
-    background-color: aqua;
     }
 
-    /* .menuItem {
-    background-color: #F1CFB0; 
-    text-align: right;
-    padding: 1em;
-
-
-    flex-flow: column;
-    } */
+    .menuContainer {
+        flex-direction: column;
+    }
+    
+    .menuItem {
+        text-align: center;
+        font-weight: bold;
+        padding: 2em;
+    }
 }
