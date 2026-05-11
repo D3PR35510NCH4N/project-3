@@ -12,10 +12,10 @@ body{
     
     display: grid;
     grid-template:
-    "header"
-    "section"
-    "main"
-    "footer"
+    "header menu"
+    "section section"
+    "main main"
+    "footer footer"
     ;
 
     grid-template-columns: 3fr;
@@ -25,6 +25,12 @@ body{
     background-color: #3D2B53
 }
 
+@media screen {
+    
+}
+
+
+
 header {
     grid-area: header;
     background-color: #3D2B53;
@@ -33,16 +39,18 @@ header {
 
 section {
     grid-area: section;
-    background-color: #766f7e;
+    background-color: #FFF3D7;
     color: #F1CFB0;
-    height: 30em;
+    /* height: 30em; */
 }
 
 section img{
     grid-area: section;
-    /* Fits for images around 6016x1987 */
+    /* Fits for images around 6016x1987... but it works!! */
     /* min-width: 100%; */
     max-width: 100%;
+    object-fit: cover;
+    /* object-position: center; */
 }
 
 main {
@@ -58,9 +66,23 @@ footer {
     color: #FFF3D7;
 }
 
+
 header, footer {
     padding: 0em 2em;
     /* margin: 0em 1em; */
 }
 
 
+
+/* make a flexbox for the header for the menu to be in */
+.menuContainer {
+    display: flex;
+    list-style-type: none;
+    margin: 1em;
+}
+
+.menuItem {
+    background-color: #F1CFB0; 
+    text-align: right;
+    padding: 1em;
+}
