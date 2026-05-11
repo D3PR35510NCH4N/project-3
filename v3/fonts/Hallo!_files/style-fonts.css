@@ -14,30 +14,17 @@
 
 @font-face {
     font-family: analogue;
-    src: url("../fonts/Analogue/TrueType/AnalogueRed-45Light.ttf");
+    src: url("../fonts/Analogue/TrueType/AnalogueRed-55Regular.ttf");
     font-weight: normal;
-    font-style:normal;
+    font-style:oblique;
 }
 
 
-body{
-    font-family: analogue;
-}
 
-main h1{
+h1{
     font-family: berylium;
 }
 
-
-/* a {
+h2{
     font-family: analogue;
-} */
-
-a:link{
-    text-decoration: none;
 }
-
-a:visited{
-    text-decoration: none;
-}
-
