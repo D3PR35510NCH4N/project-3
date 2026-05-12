@@ -70,7 +70,7 @@ footer {
 
 contact {
     grid-area: contact;
-    background-color: #bca1dd;
+    background-color: #3D2B53;
     color: #FFF3D7;
     padding: 2em;
     text-align: end;
@@ -84,8 +84,14 @@ contact {
     align-content: right;
     margin: 0.5em 0em;
     width: 100%;
+    color: #3D2B53;
+    background-color: #FFF3D7;
 }
 
+.contact-button {
+    color: #3D2B53;
+    background-color: #f2843a;
+}
 
 header, menu, footer {
     padding: 0em 2em;
