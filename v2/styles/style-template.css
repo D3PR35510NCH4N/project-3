@@ -15,10 +15,11 @@ body{
     "header menu"
     "section section"
     "main main"
-    "footer footer"
+    "footer contact"
     ;
 
     grid-template-columns: 3fr;
+    grid-template-rows: 3fr;
     gap: 0px;
 
     background-color: #3D2B53
@@ -65,6 +66,24 @@ footer {
     grid-area: footer;
     background-color: #3D2B53;
     color: #FFF3D7;
+}
+
+contact {
+    grid-area: contact;
+    background-color: #bca1dd;
+    color: #FFF3D7;
+    padding: 2em;
+    text-align: end;
+}
+
+/* .contact-form {
+    align-self: end;
+} */
+
+.contact-element {
+    align-content: right;
+    margin: 0.5em 0em;
+    width: 100%;
 }
 
 
@@ -138,6 +157,7 @@ header, menu, footer {
     "section"
     "main"
     "footer"
+    "contact"
     ;
     grid-template-columns: 3fr;
     }
@@ -151,4 +171,5 @@ header, menu, footer {
         font-weight: bold;
         padding: 2em;
     }
+
 }
