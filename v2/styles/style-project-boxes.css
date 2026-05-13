@@ -1,0 +1,133 @@
+.projectContainer{    
+    display: grid;
+    grid-template-areas:
+
+    "project1 project2 project3 project4"
+    "project5 project6 project7 project8"
+    ;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+    margin-bottom: 5em;
+}
+
+.projectBox_title {
+    background-color: #F1CFB0;
+    text-align: center;
+    border-radius: 1em;
+    padding: 2em;
+    color:#3D2B53;
+    text-align: wrap;
+
+    /* space within title box */
+    aspect-ratio: 2;
+}
+
+.projectBox_text {
+    padding: 0.5em;
+    color:#3D2B53;
+    text-align: wrap;
+}
+
+
+
+.projectContainer div.project1 {
+    grid-area: project1;
+    /* background-color: #F1CFB0; 
+    text-align: center;
+    border-radius: 1em;
+    padding: 2em;
+    color:#3D2B53;
+    text-align: wrap; */
+
+}
+.projectContainer div.project2 {
+    grid-area: project2;
+    /* background-color: #F1CFB0; 
+    text-align: center;
+    border-radius: 1em;
+    padding: 2em;
+    color:#3D2B53;
+    text-align: wrap; */
+}
+
+.projectContainer div.project3 {
+    grid-area: project3;
+    /* background-color: #F1CFB0; 
+    text-align: center;
+    border-radius: 1em;
+    padding: 2em;
+    color:#3D2B53;
+    text-align: wrap; */
+}
+
+.projectContainer div.project4 {
+    grid-area: project4;
+    /* background-color: #F1CFB0; 
+    text-align: center;
+    border-radius: 1em;
+    padding: 2em;
+    color:#3D2B53;
+    text-align: wrap; */
+}
+
+.projectContainer div.project5 {
+    grid-area: project5;
+    /* background-color: #F1CFB0; 
+    text-align: center;
+    border-radius: 1em;
+    padding: 2em;
+    color:#3D2B53;
+    text-align: wrap; */
+
+}
+.projectContainer div.project6 {
+    grid-area: project6;
+    /* background-color: #F1CFB0; 
+    text-align: center;
+    border-radius: 1em;
+    padding: 2em;
+    color:#3D2B53;
+    text-align: wrap; */
+}
+
+.projectContainer div.project7 {
+    grid-area: project7;
+    /* background-color: #F1CFB0; 
+    text-align: center;
+    border-radius: 1em;
+    padding: 2em;
+    color:#3D2B53;
+    text-align: wrap; */
+}
+
+.projectContainer div.project8 {
+    grid-area: project8;
+    /* background-color: #F1CFB0; 
+    text-align: center;
+    border-radius: 1em;
+    padding: 2em;
+    color:#3D2B53;
+    text-align: wrap; */
+}
+
+
+@media screen and (max-width: 700px) {
+    .projectContainer{    
+        display: grid;
+        grid-template-areas:
+        "project1"
+        "project2"
+        "project3"
+        "project4"
+        "project5"
+        "project6"
+        "project7"
+        "project8"
+        ;
+
+        grid-template-columns: 1fr;
+        gap: 2em;
+        margin-bottom: 5em;
+    }
+}
