@@ -11,13 +11,25 @@
     margin-bottom: 5em;
 }
 
+
 .projectBox_title {
     background-color: #F1CFB0;
-    text-align: center;
+    /* background-image: url("../../images/hungy-dog.png"); */
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    /* centers titles both horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-radius: 1em;
     padding: 2em;
     color:#3D2B53;
     text-align: wrap;
+    
 
     /* space within title box */
     aspect-ratio: 2;
