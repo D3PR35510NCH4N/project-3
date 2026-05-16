@@ -11,9 +11,13 @@
     margin-bottom: 5em;
 }
 
+.projectBox_title_background {
+    /* f28a34 but with 00000051 amount of opacity - makes overlay less aggressive*/
+    background-color: #f28a3451;
+}
 
 .projectBox_title {
-    background-color: #F1CFB0;
+    /* background-color: #f28A34; */
     /* background-image: url("../../images/hungy-dog.png"); */
     
     background-repeat: no-repeat;
@@ -39,6 +43,10 @@
     padding: 0.5em;
     color:#3D2B53;
     text-align: wrap;
+}
+
+.projectBox_title:hover {
+    background-blend-mode:overlay;
 }
 
 
