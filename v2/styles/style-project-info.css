@@ -1,0 +1,25 @@
+.infoPage_commission{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.infoPage_commissionImages {
+    padding: 2em;
+}
+
+
+
+.infoPage_series{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+
+.infoPage_seriesImages {
+    padding: 2em;
+    width: 25%;
+}

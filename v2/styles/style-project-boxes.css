@@ -11,10 +11,10 @@
     margin-bottom: 5em;
 }
 
-.projectBox_title_background {
-    /* f28a34 but with 00000051 amount of opacity - makes overlay less aggressive*/
+/* .projectBox_title_background {
+    f28a34 but with 00000051 amount of opacity - makes overlay less aggressive
     background-color: #f28a3451;
-}
+} */
 
 .projectBox_title {
     /* background-color: #f28A34; */
@@ -45,9 +45,24 @@
     text-align: wrap;
 }
 
-.projectBox_title:hover {
-    background-blend-mode:overlay;
+.projectBox_button {
+    background-color: #f28A34;
+    color:#3D2B53;
+    font-weight: bold;
+    border-radius: 1em;
+    padding: 1em;
+    width: max-content;
+    /* text-align: center; */
 }
+
+.projectBox_button:hover {
+    background-color: #f28a34aa;
+}
+
+
+
+
+
 
 
 
@@ -132,7 +147,7 @@
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .projectContainer{    
         display: grid;
         grid-template-areas:
