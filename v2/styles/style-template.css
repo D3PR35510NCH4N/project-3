@@ -11,7 +11,7 @@ body{
     "footer contact"
     ;
 
-    grid-template-columns: 2fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 3fr;
     gap: 0px;
 
@@ -61,17 +61,14 @@ footer {
     color: #FFF3D7;
 }
 
+
 contact {
     grid-area: contact;
     background-color: #3D2B53;
     color: #FFF3D7;
-    padding: 2em;
     text-align: end;
 }
 
-/* .contact-form {
-    align-self: end;
-} */
 
 .contact-element {
     align-content: right;
@@ -86,7 +83,8 @@ contact {
     background-color: #f2843a;
 }
 
-header, menu, footer {
+
+header, menu, footer, contact {
     padding: 0em 2em;
     /* margin: 0em 1em; */
 }
@@ -97,6 +95,7 @@ header, menu, footer {
 .menuContainer {
     display: flex;
     list-style-type: none;
+    justify-content: right;
 }
 
 .menuItem {
@@ -130,13 +129,14 @@ header, menu, footer {
 
 .project_card {
     /* border: 2px solid lightgray; */
+    background-color: #F1CFB0;
     padding: 1em;
     width: 15%;
     margin: 3em;
 }
 
 .project_title {
-    background-color: #F1CFB0; 
+
     text-align: center;
     border-radius: 1em;
     padding: 2em;

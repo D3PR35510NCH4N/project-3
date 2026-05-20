@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="styles/style-template.css">
         <link rel="stylesheet" href="styles/style-project-boxes.css">
         <link rel="stylesheet" href="styles\style-project-info.css">
+        <link rel="stylesheet" href="styles\style-scribble.css">
+
         <title>Hallo!</title>
     </head>
     <body>
@@ -47,13 +49,16 @@
 
             <div class="projectContainer">
                 <div class="project1">
-                    <h2 class="projectBox_title_background projectBox_title" style="background-image: url(../images/Stray.jpg);"><span style="background-color: #FFF3D7; padding: 0.2em;">Coded Animation</span></h2>
-                    <p class="projectBox_text">In this project I animated my persona scribbling on a document, as a call to action for contacting me. The animation was done in Clip Studio Paint. Then saved as an animation sequence, and imported to be coded.</p>
+                    <h2 class="projectBox_title_background projectBox_title" style="background-image: url(../images/spritesheets/Timeline-1_0000.png);"><span style="background-color: #FFF3D7; padding: 0.2em;">Coded Animation</span></h2>
+                    <p class="projectBox_text">In this project I animated my persona scribbling on a document, as a call to action for contacting me, in this portfolio. The animation was done in Clip Studio Paint. Then saved as an animation sequence, and imported to then be coded into this website. Find it at the bottom of the page!</p>
+                    <a href="spritesheet-work.html">
+                        <p class="projectBox_button">See more</p>
+                    </a>
                 </div>
                 
                 <div class="project2">
                     <h2 class="projectBox_title_background projectBox_title" style="background-image: url(../images/commission-work/Bren-color-sword.png);"><span style="background-color: #FFF3D7; padding: 0.2em;">Commission Work</span></h2>
-                    <p class="projectBox_text">This commission was about designing a Dungeons and Dragons character.</p>
+                    <p class="projectBox_text">This commission was about designing a Dungeons and Dragons character. <br> Bren is a goliath of a prideful country. In order to better show his armor with its ornamental gems, the client and I concuded that it would make sense to make two versions, one with sword in hand, and one without</p>
                     <a href="commission-work.html">
                         <p class="projectBox_button">See more</p>
                     </a>
@@ -97,14 +102,32 @@
         </main>
 
         <footer>
-            <h2>Footer</h2>
+            <br>
+            <h1>Want to know more about me? click here!</h1>
+            <a href="about-me.html">
+                <h2 style="color: #FFF3D7; text-decoration:underline;">About me</h2>
+            </a>
+            <h1>Or follow see more of my creations!</h1>
+
+            <h2>Find me on: <a href="https://www.instagram.com/_yume__chan/" style="color: #FFF3D7; text-decoration:underline;">Instagram</a></h2>
+
+            <p></p>
+
+
+
         </footer>
 
-        <contact class="contact-form">
-            <input class="contact-element"    type="text" placeholder="Name"> <br>
-            <input class="contact-element"    type="text" placeholder="Email"> <br>
-            <textarea class="contact-element" placeholder="Details"></textarea> <br>
-            <button class="contact-button">submit</button>
+        <contact>
+            <div class="scribble" style="float:inline-end;">
+                <img class="scribble-spritesheet" src="../images/spritesheets/scribble-spritesheet13.png" alt="scribbling creature">
+            </div>
+
+            <div class="contact-form">
+                <input class="contact-element"    type="text" placeholder="Name"> <br>
+                <input class="contact-element"    type="text" placeholder="Email"> <br>
+                <textarea class="contact-element" placeholder="Details"></textarea> <br>
+                <button class="contact-button">submit</button>
+            </div>
         </contact>
 
     </body>

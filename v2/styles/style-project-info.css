@@ -1,3 +1,21 @@
+main {
+    padding-top: 4em;
+    text-align: center;
+}
+
+.infoPage_sprite{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.infoPage_spriteImages {
+    padding: 2em;
+}
+
+
+
 .infoPage_commission{
     display: flex;
     flex-direction: row;
