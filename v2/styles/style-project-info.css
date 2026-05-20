@@ -3,7 +3,7 @@ main {
     text-align: center;
 }
 
-.infoPage_sprite{
+.infoPage_sprite {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -16,7 +16,7 @@ main {
 
 
 
-.infoPage_commission{
+.infoPage_commission {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -40,4 +40,56 @@ main {
 .infoPage_seriesImages {
     padding: 2em;
     width: 25%;
+}
+
+
+
+.infoPage_installation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.infoPage_installationImages {
+    padding: 2em;
+}
+
+
+
+.infoPage_rattigan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.infoPage_rattiganImages {
+    padding: 2em;
+}
+
+
+
+.infoPage_hamburg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.infoPage_hamburgImages {
+    padding: 2em;
+}
+
+
+
+.infoPage_shortfilm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.infoPage_shortfilmImages {
+    padding: 2em;
 }
