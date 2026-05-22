@@ -24,6 +24,7 @@ header {
     grid-area: header;
     background-color: #3D2B53;
     color: #FFF3D7;
+    margin-top: 1em;
 }
 
 menu {
@@ -164,6 +165,13 @@ header, menu, footer, contact {
 }
 
 
+.portrait-move{
+    float: inline-start;
+    padding: 2em;
+    width: 20%;
+}
+
+
 /* Browser preview doesn't work with max-width smaller than 700px */
 /* Pixel size is smaller than newer phone resolutions, so that it responds to computers */
 @media screen and (max-width: 800px) {
@@ -181,6 +189,20 @@ header, menu, footer, contact {
     "contact"
     ;
     grid-template-columns: 3fr;
+    }
+
+    header, menu {
+        margin-bottom: 1em;
+    }
+
+    footer, contact {
+        margin-bottom: 1em;
+    }
+
+    .portrait-move{
+        float: none;
+        position: static;
+        width: 50%;
     }
 
 
