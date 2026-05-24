@@ -11,14 +11,10 @@
     margin-bottom: 5em;
 }
 
-/* .projectBox_title_background {
-    f28a34 but with 00000051 amount of opacity - makes overlay less aggressive
-    background-color: #f28a3451;
-} */
+
 
 .projectBox_title {
     background-color: #f1cfb0;
-    /* background-image: url("../../images/hungy-dog.png"); */
     
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +28,7 @@
     border-radius: 1em;
     padding: 2em;
     color:#3D2B53;
-    text-align: wrap;
+    text-wrap: wrap;
     
 
     /* space within title box */
@@ -42,7 +38,7 @@
 .projectBox_text {
     padding: 0.5em;
     color:#3D2B53;
-    text-align: wrap;
+    text-wrap: wrap;
 }
 
 .projectBox_button {
@@ -52,7 +48,6 @@
     border-radius: 1em;
     padding: 1em;
     width: max-content;
-    /* text-align: center; */
 }
 
 .projectBox_button:hover {
@@ -68,82 +63,34 @@
 
 .projectContainer div.project1 {
     grid-area: project1;
-    /* background-color: #F1CFB0; 
-    text-align: center;
-    border-radius: 1em;
-    padding: 2em;
-    color:#3D2B53;
-    text-align: wrap; */
 
 }
 .projectContainer div.project2 {
     grid-area: project2;
-    /* background-color: #F1CFB0; 
-    text-align: center;
-    border-radius: 1em;
-    padding: 2em;
-    color:#3D2B53;
-    text-align: wrap; */
 }
 
 .projectContainer div.project3 {
     grid-area: project3;
-    /* background-color: #F1CFB0; 
-    text-align: center;
-    border-radius: 1em;
-    padding: 2em;
-    color:#3D2B53;
-    text-align: wrap; */
 }
 
 .projectContainer div.project4 {
     grid-area: project4;
-    /* background-color: #F1CFB0; 
-    text-align: center;
-    border-radius: 1em;
-    padding: 2em;
-    color:#3D2B53;
-    text-align: wrap; */
 }
 
 .projectContainer div.project5 {
     grid-area: project5;
-    /* background-color: #F1CFB0; 
-    text-align: center;
-    border-radius: 1em;
-    padding: 2em;
-    color:#3D2B53;
-    text-align: wrap; */
 
 }
 .projectContainer div.project6 {
     grid-area: project6;
-    /* background-color: #F1CFB0; 
-    text-align: center;
-    border-radius: 1em;
-    padding: 2em;
-    color:#3D2B53;
-    text-align: wrap; */
 }
 
 .projectContainer div.project7 {
     grid-area: project7;
-    /* background-color: #F1CFB0; 
-    text-align: center;
-    border-radius: 1em;
-    padding: 2em;
-    color:#3D2B53;
-    text-align: wrap; */
 }
 
 .projectContainer div.project8 {
     grid-area: project8;
-    /* background-color: #F1CFB0; 
-    text-align: center;
-    border-radius: 1em;
-    padding: 2em;
-    color:#3D2B53;
-    text-align: wrap; */
 }
 
 

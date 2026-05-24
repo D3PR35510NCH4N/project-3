@@ -63,7 +63,7 @@ footer {
 }
 
 
-contact {
+form {
     grid-area: contact;
     background-color: #3D2B53;
     color: #FFF3D7;
@@ -72,7 +72,7 @@ contact {
 
 
 .contact-element {
-    align-content: right;
+    align-content:flex-end;
     margin: 0.5em 0em;
     width: 100%;
     color: #3D2B53;
@@ -85,7 +85,7 @@ contact {
 }
 
 
-header, menu, footer, contact {
+header, menu, footer, form {
     padding: 0em 2em;
     /* margin: 0em 1em; */
 }
@@ -141,13 +141,13 @@ header, menu, footer, contact {
     border-radius: 1em;
     padding: 2em;
     color:#3D2B53;
-    text-align: wrap;
+    text-wrap: wrap;
 }
 
 .project_text {
     padding: 2em;
     color:#3D2B53;
-    text-align: wrap;
+    text-wrap: wrap;
 }
 
 
@@ -195,7 +195,7 @@ header, menu, footer, contact {
         margin-bottom: 1em;
     }
 
-    footer, contact {
+    footer, form {
         margin-bottom: 1em;
     }
 
